@@ -5,7 +5,7 @@ int main() {
 
     int arr[] = {2, 3, 4};
 
-    int N = sizeof(arr);
+    int N = sizeof(arr) / sizeof(arr[0]);
 
     cout << N << endl;
 
